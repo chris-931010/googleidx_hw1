@@ -1,0 +1,50 @@
+/* 基本樣式 */
+body {
+    font-family: Arial, sans-serif; /* 字體 */
+    margin: 0; /* 清除預設邊距 */
+    padding: 0; /* 清除預設內距 */
+    background-color: #f4f4f4; /* 背景顏色 */
+    color: #333; /* 文字顏色 */
+    line-height: 1.6; /* 行高 */
+  }
+  
+  /* 標頭樣式 */
+  header {
+    background-color: #333; /* 標頭背景顏色 */
+    color: #fff; /* 標頭文字顏色 */
+    padding: 1rem 0; /* 標頭內距 */
+    text-align: center; /* 文字置中 */
+  }
+  
+  header h1 {
+    margin: 0; /* 清除標題邊距 */
+  }
+  
+  /* 導覽列樣式 */
+  nav ul {
+    padding: 0; /* 清除列表內距 */
+    list-style: none; /* 清除列表符號 */
+  }
+  
+  nav ul li {
+    display: inline; /* 讓列表項目水平排列 */
+    margin: 0 1rem; /* 列表項目外距 */
+  }
+  
+  nav ul li a {
+    color: #fff; /* 連結文字顏色 */
+    text-decoration: none; /* 清除連結底線 */
+  }
+  
+  /* 主要內容樣式 */
+  main {
+    padding: 2rem; /* 主要內容內距 */
+  }
+  
+  /* 頁尾樣式 */
+  footer {
+    background-color: #333; /* 頁尾背景顏色 */
+    color: #fff; /* 頁尾文字顏色 */
+    text-align: center; /* 文字置中 */
+    padding: 1rem 0; /* 頁尾內距 */
+  }
